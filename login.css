@@ -1,0 +1,74 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#login {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin: 2em auto;
+    padding: 2em;
+    width: 300px;
+}
+
+#login h2 {
+    color: #4CAF50;
+}
+
+#login input[type="text"],
+#login input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#login button {
+    display: block;
+    margin: 1em auto;
+}
+
+#products {
+    margin: 2em auto;
+    padding: 2em;
+    width: 80%;
+}
+
+.product {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.product h3 {
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
